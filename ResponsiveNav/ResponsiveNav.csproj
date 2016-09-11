@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,6 +101,8 @@
     <Content Include="images\range-5.png" />
     <Content Include="images\site-logo-white.png" />
     <Content Include="images\snowboarder.jpg" />
+    <Content Include="mycodetry\app.css" />
+    <Content Include="mycodetry\index.html" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>

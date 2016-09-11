@@ -1,0 +1,33 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+}
+#title 
+{
+    background-color:#b53b3b;
+}
+
+#pagecontent .container{
+    position:                       relative;
+    padding:                        0;
+    margin:                         auto;
+    width:                          46em;
+}
+body{
+    background-color:#170101;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#copyright {
+  position: absolute;
+  bottom: 0;
+  width:46em;
+  margin-left:350px;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #b53b3b;
+
+}
