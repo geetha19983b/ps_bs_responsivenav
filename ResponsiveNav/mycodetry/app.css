@@ -10,16 +10,19 @@
 #pagecontent .container{
     position:                       relative;
     padding:                        0;
-    margin:                         auto;
+    /*margin:                         auto;*/
+    margin-left:350px;
     width:                          46em;
 }
 body{
     background-color:#170101;
+      /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+#bodycontent {
+    margin-top:10px;
+     background-color:#b53b3b;
 }
 #copyright {
   position: absolute;
