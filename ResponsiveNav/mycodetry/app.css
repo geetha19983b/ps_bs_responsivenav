@@ -4,34 +4,97 @@
 }
 #title 
 {
-    background-color:#b53b3b;
+    /*background-color:#b53b3b;*/
+     background-color:#FFAAAA;
+     /*border-radius:1em;*/
+     font-size:                      6em;
+    font-weight:                    bold;
+
 }
 
 #pagecontent .container{
     position:                       relative;
     padding:                        0;
     /*margin:                         auto;*/
-    margin-left:350px;
-    width:                          46em;
+    /*margin-left:350px;
+    width:                          46em;*/
 }
 
 body{
-    background-color:#170101;
+    /*background-color:#FFAAAA;*/
+    background-color:#801515;
+    /*background:linear-gradient(#170101, #dd395a);*/
       /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+a {
+    color:                          #aa8d00;
+    text-decoration:                none;
+}
+a:hover {
+    color:                          #0055aa;
+}
+nav {
+    /*background-color:               #432100;*/
+    background-color:#3e1f16;
+    line-height:                    2em;
+    /*border-radius:1em;*/
+}
+nav a {
+    font-size:                      1.50em;
+    padding-left:                   2em;
+    text-decoration:                none;
+   /*color:              rgba(0,0,0,0);*/
 
+}
+nav {
+    margin-top:2px;
+    padding:5px;
+}
+nav a:first-child{
+    padding-left:0.5px;
+}
+    nav a {
+        text-shadow: 0.16em 0.16em 0.16em #FFBB77;
+        border-left: 5px solid #ED6046;
+        /*display:inline-block;*/
+        /*-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;*/
+        
+    }
+nav a:hover {
+    color:                          #ffbb77;
+text-decoration:                none;
+transform:scale(1.25);
+
+}
 #bodycontent {
-    margin-top:10px;
-     background-color:#b53b3b;
+    margin-top:15px;
+     /*background-color:#b53b3b;*/
+     background-color:#FFAAAA;
+     border-radius:1em;
+     box-shadow: .5em .5em .5em #D46A6A;
+     margin-left:0px;
+     margin-right:0px;
 }
 #copyright {
   position: absolute;
   bottom: 0;
-  width:46em;
-  margin-left:350px;
+ 
+  margin-left:90px;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #b53b3b;
+  /*background-color: #b53b3b;*/
+   background-color:#FFAAAA;
+   /*border-radius:1em;*/
+  width:85%;    
 
 }
+
+/*#headerwithnav
+{
+    border-top-left-radius:2em;
+    border-bottom-right-radius:2em;
+}*/
+
